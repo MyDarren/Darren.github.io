@@ -289,16 +289,16 @@ __加粗__
   Footnotes           | [\^4]: and [\^4]: | [^4] and footnote 4  |
   ```
   
-  Option name |     Markdown Markup            | Result if enabled
-  ------------| --------------------- | ----------------
-  斜体         | So A\*maz\*ing          |So A<em>maz</em>ing
-  删除线       |\~\~Much wow\~\~           |<del>Much wow</del>
-  下划线       |\\\_So doge\\\_            |<u>So doge</u>  
-  引用\[^quote\]         |"Such editor" |<q>Such editor</q>
-  高亮         |==So good==           |<mark>So good</mark>
-  上标         |hoge^fuga             |hoge<sup>fuga</sup> 
-  链接         |http://t.co           |<http://t.co>  
-  脚注         |\[\^foot]               |[^foot]  
+  Option name |   Markdown Markup   | Result if enabled
+  ------------| --------------------| ----------------
+  斜体         | So A\*maz\*ing      |So A<em>maz</em>ing
+  删除线       |\~\~Much wow\~\~     |<del>Much wow</del>
+  下划线       |\\\_So doge\\\_      |<u>So doge</u>  
+  引用\[^quote\] |"Such editor"      |<q>Such editor</q>
+  高亮         |==So good==          |<mark>So good</mark>
+  上标         |hoge^fuga            |hoge<sup>fuga</sup> 
+  链接         |http://t.co          |<http://t.co>  
+  脚注         |\[\^foot]            |[^foot]  
 
   
   \[^foot]: You don't have to use a number. Arbitrary things like `[^footy note4]` and `[^footy note4]:` will also work. But they will *render* as numbered footnotes. Also, no need to keep your footnotes in order, I will sort out the order for you so they appear in the same order they were referenced in the text body. You can even keep some footnotes near where you referenced them, and collect others at the bottom of the file in the traditional place for footnotes. 
