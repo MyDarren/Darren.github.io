@@ -294,7 +294,7 @@ __加粗__
   斜体         | So A\*maz\*ing          |So A*maz*ing
   删除线       |\~~Much wow\~~           |~~Much wow~~
   下划线       |\\\_So doge\\\_            |\_So doge\_
-  引用         |"Such editor"\[^quote\] |"Such editor"
+  引用\[^quote\]         |"Such editor" |"Such editor"
   高亮         |==So good==           |==So good==
   上标         |hoge^fuga             |hoge^fuga 
   脚注         |\[\^foot]               |\[^foot]  
