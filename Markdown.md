@@ -252,6 +252,7 @@ __加粗__
   民族|汉
   ```
   效果如下：
+  
   First Column|Second Column
   ---|---
   年龄|18
@@ -267,6 +268,7 @@ __加粗__
   | zebra stripes | are neat        |            $1 |
   ```
   效果如下：
+  
   | Left Aligned  | Center Aligned  | Right Aligned |
   |:------------- |:---------------:| -------------:|
   | col 3 is      | some wordy text |         $1600 |
@@ -286,6 +288,7 @@ __加粗__
   Autolink            | http://t.co       | <http://t.co>         |
   Footnotes           | [\^4]: and [\^4]: | [^4] and footnote 4  |
   ```
+  
   效果 |     Markdown标记            | 结果
   ------------| --------------------- | ----------------
   斜体         | So A\*maz\*ing          |So A*maz*ing
