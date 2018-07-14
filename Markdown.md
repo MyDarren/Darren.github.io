@@ -289,7 +289,7 @@ __加粗__
   Footnotes           | [\^4]: and [\^4]: | [^4] and footnote 4  |
   ```
   
-  效果 |     Markdown标记            | 结果
+  Option name |     Markdown Markup            | Result if enabled
   ------------| --------------------- | ----------------
   斜体         | So A\*maz\*ing          |So A*maz*ing
   删除线       |\~~Much wow\~~           |~~Much wow~~
