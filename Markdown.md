@@ -220,11 +220,11 @@ __加粗__
       ```  
       
       >\`\`\`objective-c  
-      - (void)testFunction{
-      ` ` ` `for (UIView *view in self.view.subviews) {
-      ` ` ` ` ` ` ` `NSLog(@"%@",NSStringFromCGRect(view.frame));
-      ` ` ` `}
-      }
+      - (void)testFunction{。
+      ` ` ` `for (UIView *view in self.view.subviews) {  
+      ` ` ` ` ` ` ` `NSLog(@"%@",NSStringFromCGRect(view.frame));  
+      ` ` ` `}  
+      }  
       \`\`\`  
       
       效果如下：  
