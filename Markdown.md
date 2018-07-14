@@ -301,11 +301,11 @@ __加粗__
   链接         |http://t.co           |<http://t.co>  
 
   
-	[^foot]: You don't have to use a number. Arbitrary things like `[^footy note4]` and `[^footy note4]:` will also work. But they will *render* as numbered footnotes. Also, no need to keep your footnotes in order, I will sort out the order for you so they appear in the same order they were referenced in the text body. You can even keep some footnotes near where you referenced them, and collect others at the bottom of the file in the traditional place for footnotes. 
+  [^foot]: You don't have to use a number. Arbitrary things like `[^footy note4]` and `[^footy note4]:` will also work. But they will *render* as numbered footnotes. Also, no need to keep your footnotes in order, I will sort out the order for you so they appear in the same order they were referenced in the text body. You can even keep some footnotes near where you referenced them, and collect others at the bottom of the file in the traditional place for footnotes. 
 
-	[^foot]: 脚注不需要一定用数字。任意的`[footy note4]`和`[footy note4]:`都有效，他们会按照脚注的id渲染，在文中使用了`[^foot]`标记脚注后，只有在后面用`[^foot]: `备注脚注后才能让该脚注渲染。同样的不需要保持脚注备注的顺序，Markdown将为你整理一下顺序，这样它们就会按照在文本正文中引用的顺序出现；甚至可以在引用它们的地方附近保留一些脚注，也可以在文件的底部收集其他脚注
+  [^foot]: 脚注不需要一定用数字。任意的`[footy note4]`和`[footy note4]:`都有效，他们会按照脚注的id渲染，在文中使用了`[^foot]`标记脚注后，只有在后面用`[^foot]: `备注脚注后才能让该脚注渲染。同样的不需要保持脚注备注的顺序，Markdown将为你整理一下顺序，这样它们就会按照在文本正文中引用的顺序出现；甚至可以在引用它们的地方附近保留一些脚注，也可以在文件的底部收集其他脚注
 
-	[^quote]: 引用用html<q>标签替换文字“"引号字符。引用和Smartypants在语法上是不兼容的。如果两个都启用，则引用优先。注意，引用与blockquote不同，后者是标准的Markdown的一部分
+  [^quote]: 引用用html<q>标签替换文字“"引号字符。引用和Smartypants在语法上是不兼容的。如果两个都启用，则引用优先。注意，引用与blockquote不同，后者是标准的Markdown的一部分
   
  
 
