@@ -220,7 +220,7 @@ __加粗__
       ```  
       
       >\`\`\`objective-c  
-      - (void)testFunction{。
+      - (void)testFunction{  
       ` ` ` `for (UIView *view in self.view.subviews) {  
       ` ` ` ` ` ` ` `NSLog(@"%@",NSStringFromCGRect(view.frame));  
       ` ` ` `}  
