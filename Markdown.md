@@ -297,8 +297,8 @@ __加粗__
   引用\[^quote\]         |"Such editor" |<q>Such editor</q>
   高亮         |==So good==           |<mark>So good</mark>
   上标         |hoge^fuga             |hoge<sup>fuga</sup> 
-  脚注         |\[\^foot]               |[^foot]  
   链接         |http://t.co           |<http://t.co>  
+  脚注         |\[\^foot]               |[^foot]  
 
   
   \[^foot]: You don't have to use a number. Arbitrary things like `[^footy note4]` and `[^footy note4]:` will also work. But they will *render* as numbered footnotes. Also, no need to keep your footnotes in order, I will sort out the order for you so they appear in the same order they were referenced in the text body. You can even keep some footnotes near where you referenced them, and collect others at the bottom of the file in the traditional place for footnotes. 
