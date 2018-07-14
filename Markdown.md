@@ -70,7 +70,7 @@ __加粗__
 
 ## 链接和邮箱
 * 自动链接，在链接前后使用`<>`  
-  ```<http://www.baidu.com>```
+  ```<http://www.baidu.com>```  
   ```<uranusjr@gmail.com>```
 
   效果如下：
@@ -82,7 +82,7 @@ __加粗__
   效果如下：
   >[百度](http://www.baidu.com)
 * 引用链接`[][]`，`[]:***`，其中第一个`[]`里面为链接标题，第二个`[]`里面为链接标识id，第三个`[]`里面链接标识id，其后面为真实url  
-  ```[GitHub](gitHub_id)```
+  ```[GitHub](gitHub_id)```  
   ```[gitHub_id]:https://github.com```
 
   效果如下：
