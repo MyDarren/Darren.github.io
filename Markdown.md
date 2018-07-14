@@ -110,7 +110,7 @@ __加粗__
   ```![本地图片2][local_image]```  
   ```[local_image]:https://upload-images.jianshu.io/upload_images/1768589-d4c7faea86df4437.gif "local_image2"```  
   
-  效果如下：
+  效果如下：    
   ![本地图片2][local_image]
 
 ## 列表
