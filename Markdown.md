@@ -293,7 +293,7 @@ __加粗__
   ------------| --------------------- | ----------------
   斜体         | So A\*maz\*ing          |So A*maz*ing
   删除线       |\~~Much wow\~~           |~~Much wow~~
-  下划线       |\_So doge\_            |\_So doge\_
+  下划线       |\\\_So doge\\\_            |\_So doge\_
   引用         |"Such editor"[^quote] |"Such editor"
   高亮         |==So good==           |==So good==
   上标         |hoge^fuga             |hoge^fuga 
@@ -312,7 +312,7 @@ __加粗__
 
 	[^foot]: 脚注不需要一定用数字。任意的`[footy note4]`和`[footy note4]:`都有效，他们会按照脚注的id渲染，在文中使用了`[^foot]`标记脚注后，只有在后面用`[^foot]: `备注脚注后才能让该脚注渲染。同样的不需要保持脚注备注的顺序，Markdown将为你整理一下顺序，这样它们就会按照在文本正文中引用的顺序出现；甚至可以在引用它们的地方附近保留一些脚注，也可以在文件的底部收集其他脚注
 
-	[^quote]: 引用用html<q>标签替换文字“"引号字符。引用和Smartypants在语法上是不兼容的。如果两个都启用，则引用优先。注意，引用与blockquote不同，后者是标准的Markdown的一部分
+	[^quote]: 引用用html<q>标签替换文字“"引号字符。引用和Smartypants在语法上是不兼容的。如果两个都启用，则引用优先。注意，引用与blockquote不同，后者是标准的Markdown的一部分  
 
 [net_image]:https://imgt.388g.com/allimg/160711/5-160G10T615.jpg "net_image2"
 [local_image]:https://upload-images.jianshu.io/upload_images/1768589-d4c7faea86df4437.gif "local_image2"
