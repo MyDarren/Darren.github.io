@@ -1,58 +1,108 @@
 # 基本语法
 
 ## 换行
-行尾加两个空格，然后加return键  
-*测试换行 
-这样不换行
+行尾加两个空格，然后加`return`键 
+* 不换行 
+测试
+哈哈
 
-*测试换行  
-这样换行
+效果如下：
+```
+测试 哈哈
+```
+
+* 换行
+测试`  `
+哈哈
+
+  效果如下：
+>测试
+哈哈
 
 ## 加粗
-加粗字前后都使用两个*号或者下划线  
-**星号加粗**  
-__下划线加粗__
+加粗字前后都使用两个`*`号或者`_`
+`**`加粗`**`
+`__`加粗`__`
+
+效果如下：
+>加粗
+**加粗**  
+__加粗__
 
 ## 斜体
-在斜体字前后加一个*号或者下划线  
-*斜体*  
-_斜体_
+在斜体字前后加一个`*`号或者`_`  
+`*`斜体`*`  
+效果如下：
+>_斜体_
 
 ## 标题  
-* 一种方式：一级标题可以在标题下一行使用=号，二级标题可以在标题下一行使用-号  
-* 另一种方式：总共可以有六级标题，分别在标题前面使用1-6个#号分别表示对应的标题等级
+* 一种方式：一级标题可以在标题下一行使用`=`号，二级标题可以在标题下一行使用`-`号  
+* 另一种方式：总共可以有六级标题，分别在标题前面使用1-6个`#`号分别表示对应的标题等级
 一级标题
-=
+`=`
 二级标题
--
+`-`
 
-或者
+  效果如下：
 
-```
-# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题
-###### 六级标题
-```
+  >一级标题  
+  >=
+  >二级标题
+  >-
+
+  或者
+
+  `#` 一级标题
+  `##` 二级标题
+  `###` 三级标题
+  `####` 四级标题
+  `#####` 五级标题
+  `######` 六级标题
+
+  效果如下：
+  ># 一级标题
+  >## 二级标题
+  >### 三级标题
+  >#### 四级标题
+  >##### 五级标题
+  >###### 六级标题
 
 ## 链接和邮箱
 * 自动链接，在链接前后使用`<>`  
-<http://www.baidu.com>  
-<uranusjr@gmail.com>    
+  `<`http://www.baidu.com`>`
+  `<`uranusjr@gmail.com`>`  
+  效果如下：
+  ><http://www.baidu.com>  
+  <uranusjr@gmail.com>      
 * 行内链接`[]()`，`[]`里面为链接标题，`()`里面为链接地址  
-[百度](http://www.baidu.com)  
+  `[`百度`](`http://www.baidu.com`)`
+  效果如下：
+  >[百度](http://www.baidu.com)
 * 引用链接`[][]`，`[]:***`，其中第一个`[]`里面为链接标题，第二个`[]`里面为链接标识id，第三个`[]`里面链接标识id，其后面为真实url  
-[GitHub][gitHub_id]
+  `[`GitHub`](`gitHub_id`)`
+  `[`gitHub_id`]:`https://github.com
+  效果如下：
+  >[GitHub][gitHub_id]
+
+[gitHub_id]:https://github.com/
 
 ## 图片
-* 行内链接，使用`![]()`，其中`[]`里面为图片名称，`()`里面为图片本地或网络地址，地址后面可选图片标题
+* 行内链接，使用`[]()`里面为图片本地或网络地址，地址后面可选图片标题
 * 引用链接，使用`![][],[]:***`，其中第一个`[]`里面为图片标题，第二个`[]`里面为图片标识id，第三个`[]`里面为图片标识id，其后面为图片本地或网络地址，地址后面可选图片标题
-![网络图片1][net_image]
-![网络图片2](https://imgt.388g.com/allimg/160711/5-160G10T615.jpg "net_image2")
-![本地图片1][local_image]
-![本地图片2](local_test.gif "local_image2")
+`![`网络图片1](http://upload-images.jianshu.io/upload_images/1768589-173b2734f0487253.jpg "net_image1"`)`
+效果如下：
+![网络图片1](http://upload-images.jianshu.io/upload_images/1768589-173b2734f0487253.jpg "net_image1")
+
+`![`网络图片2`][`net_image`]`  
+`[`net_image`]`:https://imgt.388g.com/allimg/160711/5-160G10T615.jpg
+效果如下：
+![网络图片2][net_image]
+
+[net_image]:https://imgt.388g.com/allimg/160711/5-160G10T615.jpg
+
+`![`本地图片1`][`local_image`]`
+![本地图片2](https://upload-images.jianshu.io/upload_images/1768589-424faca41a1570a7.gif "local_image2")
+
 
 ## 列表
 * 列表前必须有空行(或块元素)
@@ -81,11 +131,11 @@ _斜体_
 > 三军可夺帅也，匹夫不可夺志也
 > > 见贤思齐焉，见不贤而内自省也
 > > > 朝闻道，夕死可矣
-	
+
 * 大部分Markdown语法都可以在块引用中使用
 > * 列表
 [百度](https://www.baidu.com)
-![图片](http://p2.qhimgs4.com/t0165369d5c65d1cc46.jpg)
+![图片](http://upload-images.jianshu.io/upload_images/1768589-b07325f8a8178d14.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 [简书][jianshu_id]
 
 ## 代码
@@ -175,14 +225,14 @@ Footnotes           | [\^4]: and [\^4]: | [^4] and footnote 4  |
 	
 	```objective-c
 	- (void)testFunction{
-   		for (UIView *view in self.view.subviews) {
-        	NSLog(@"%@",NSStringFromCGRect(view.frame));
-    	}
+            for (UIView *view in self.view.subviews) {
+                NSLog(@"%@",NSStringFromCGRect(view.frame));
+    	    }
 	}
 	```
 
-[testmail]:uranusjr@gmail.com
-[gitHub_id]:https://github.com/
+
 [net_image]:http://img4.imgtn.bdimg.com/it/u=2073864541,1372944381&fm=27&gp=0.jpg "net_image1"
-[local_image]:local_image.jpg "local_image1"
+[local_image]:https://upload-images.jianshu.io/upload_images/1768589-fe85bed2d7637574.jpg "local_image1"
+
 [jianshu_id]:https://www.jianshu.com
