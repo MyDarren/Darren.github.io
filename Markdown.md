@@ -105,7 +105,7 @@ __加粗__
   ```![本地图片1] (local_image.jpg "local_image1")```  
   
   效果如下：
-  >![本地图片1](https://upload-images.jianshu.io/upload_images/1768589-7539c318c5551814.jpg "local_image1")
+  >![本地图片1](local_image.jpg "local_image1")
 
   ```![本地图片2][local_image]```  
   ```[local_image]:https://upload-images.jianshu.io/upload_images/1768589-d4c7faea86df4437.gif "local_image2"```  
