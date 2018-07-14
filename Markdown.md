@@ -190,7 +190,7 @@ __加粗__
       print('代码块')  
       \`\`\`  
 
-      效果如下：
+      效果如下：    
       ```  
       print('代码块')  
       ```  
@@ -199,41 +199,41 @@ __加粗__
       print('代码块')  
       \~\~\~
 
-      效果如下：
+      效果如下：  
       ```
       print('代码块')
       ```  
     * 在第一列末尾加上language ID支持代码高亮，支持的语言及语言id见[链接](http://macdown.uranusjr.com/features/code-block-highlighting/)
-      >\~\~\~python
-      foo = (1,2,3,4)
-      bar = (5,6,7,8)
-      for f,b in zip(foo,bar):
-      ` ` ` ` ` `print f,b
+      >\~\~\~python  
+      foo = (1,2,3,4)  
+      bar = (5,6,7,8)  
+      for f,b in zip(foo,bar):  
+      ` ` ` ` ` `print f,b  
       \~\~\~
 
-      效果如下：
-      ``` python
-      foo = (1,2,3,4)
-      bar = (5,6,7,8)
-      for f,b in zip(foo,bar):
-          print f,b
-      ```
+      效果如下：  
+      ``` python  
+      foo = (1,2,3,4)  
+      bar = (5,6,7,8)  
+      for f,b in zip(foo,bar):  
+          print f,b  
+      ```  
       
-      >\`\`\`objective-c
-      - (void)testFunction{
-      ` ` ` `for (UIView *view in self.view.subviews) {
-      ` ` ` ` ` ` ` `NSLog(@"%@",NSStringFromCGRect(view.frame));
-       ` ` ` `}
-      }
-      \`\`\`
+      >\`\`\`objective-c  
+      - (void)testFunction{  
+      ` ` ` `for (UIView *view in self.view.subviews) {  
+      ` ` ` ` ` ` ` `NSLog(@"%@",NSStringFromCGRect(view.frame));  
+       ` ` ` `}  
+      }  
+      \`\`\`  
       
-      效果如下：
-      ```objective-c
-      - (void)testFunction{
-          for (UIView *view in self.view.subviews) {
-              NSLog(@"%@",NSStringFromCGRect(view.frame));
-          }
-      }
+      效果如下：  
+      ```objective-c  
+      - (void)testFunction{  
+          for (UIView *view in self.view.subviews) {  
+              NSLog(@"%@",NSStringFromCGRect(view.frame));  
+          }  
+      }  
       ```
 
 ## 水平线
