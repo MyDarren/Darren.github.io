@@ -292,7 +292,7 @@ __加粗__
   Option name |     Markdown Markup            | Result if enabled
   ------------| --------------------- | ----------------
   斜体         | So A\*maz\*ing          |So A<em>maz</em>ing
-  删除线       |\~~Much wow\~~           |<del>Much wow</del>
+  删除线       |\~\~Much wow\~\~           |<del>Much wow</del>
   下划线       |\\\_So doge\\\_            |<u>So doge</u>  
   引用\[^quote\]         |"Such editor" |<q>Such editor</q>
   高亮         |==So good==           |<mark>So good</mark>
