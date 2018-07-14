@@ -26,7 +26,7 @@
 `**`加粗`**`  
 `__`加粗`__`
 
-效果如下：
+效果如下：  
 >加粗  
 **加粗**    
 __加粗__
@@ -46,7 +46,7 @@ __加粗__
 二级标题  
 `-`
 
-	效果如下：
+	效果如下：  
 	>一级标题    
 	>=  
 	>二级标题  
@@ -60,7 +60,7 @@ __加粗__
 	`#####` 五级标题  
 	`######` 六级标题  
 
-	效果如下：
+	效果如下：  
 	># 一级标题
 	>## 二级标题
 	>### 三级标题
@@ -73,19 +73,19 @@ __加粗__
   ```<http://www.baidu.com>```  
   ```<uranusjr@gmail.com>```
 
-  效果如下：
+  效果如下：  
   ><http://www.baidu.com>  
   <uranusjr@gmail.com>      
 * 行内链接`[]()`，`[]`里面为链接标题，`()`里面为链接地址  
   ```[百度](http://www.baidu.com)```
 
-  效果如下：
+  效果如下：  
   >[百度](http://www.baidu.com)
 * 引用链接`[][]`，`[]:***`，其中第一个`[]`里面为链接标题，第二个`[]`里面为链接标识id，第三个`[]`里面链接标识id，其后面为真实url  
   ```[GitHub](gitHub_id)```  
   ```[gitHub_id]:https://github.com```
 
-  效果如下：
+  效果如下：  
   >[GitHub](https://github.com)
 
 ## 图片
@@ -93,24 +93,24 @@ __加粗__
 * 引用链接，使用`![][],[]:***`，其中第一个`[]`里面为图片标题，第二个`[]`里面为图片标识id，第三个`[]`里面为图片标识id，其后面为图片本地或网络地址，地址后面可选图片标题  
   ```![网络图片1] (http://upload-images.jianshu.io/upload_images/1768589-173b2734f0487253.jpg "net_image1")``` 
   
-  效果如下：
+  效果如下：  
   >![网络图片1](http://upload-images.jianshu.io/upload_images/1768589-173b2734f0487253.jpg "net_image1")
 
   ```![网络图片2][net_image]```  
   ```[net_image]:https://imgt.388g.com/allimg/160711/5-160G10T615.jpg "net_image2"``` 
   
-  效果如下：
+  效果如下：  
   >![网络图片2][net_image]
 
   ```![本地图片1] (local_image.jpg "local_image1")```  
   
-  效果如下：
+  效果如下：  
   >![本地图片1](local_image.jpg "local_image1")
 
   ```![本地图片2][local_image]```  
   ```[local_image]:https://upload-images.jianshu.io/upload_images/1768589-d4c7faea86df4437.gif "local_image2"```  
   
-  效果如下：    
+  效果如下：      
   ![本地图片2][local_image]
 
 ## 列表
@@ -138,7 +138,7 @@ __加粗__
   > 己所不欲，勿施于人
   ```
 
-  效果如下：
+  效果如下：  
   > 筚路蓝缕，以启山林  
   君子和而不同，小人同而不和  
   德不孤，必有邻
@@ -152,7 +152,7 @@ __加粗__
   > > > 朝闻道，夕死可矣
   ```
 
-  效果如下：
+  效果如下：  
   > 三军可夺帅也，匹夫不可夺志也  
   > > 见贤思齐焉，见不贤而内自省也  
   > > > 朝闻道，夕死可矣
@@ -166,11 +166,11 @@ __加粗__
   [jianshu_id]:https://www.jianshu.com
   ```
 
-  效果如下：
-  > * 列表
-  [百度](https://www.baidu.com)
-  ![图片](http://upload-images.jianshu.io/upload_images/1768589-b07325f8a8178d14.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-  [简书][jianshu_id]
+  效果如下：  
+  > * 列表  
+  [百度](https://www.baidu.com)  
+  ![图片](http://upload-images.jianshu.io/upload_images/1768589-b07325f8a8178d14.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+  [简书][jianshu_id]  
 
 ## 代码
 * 行内代码，行内代码使用`` ` ``表示，如果代码中有反引号``code has `backticks ` ``需要显示，可以使用双反引号```` ``code has `backticks` `` ````
@@ -178,7 +178,7 @@ __加粗__
   >` ` ` ` ` ` ` `print('缩进代码')  
   ` ` ` ` ` ` ` `print('缩进代码前必须有空白行')
 
-  效果如下：
+  效果如下：  
   ```
       print('缩进代码')  
       print('缩进代码前必须有空白行')
