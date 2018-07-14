@@ -91,21 +91,25 @@ __加粗__
 ## 图片
 * 行内链接，使用`[]()`里面为图片本地或网络地址，地址后面可选图片标题
 * 引用链接，使用`![][],[]:***`，其中第一个`[]`里面为图片标题，第二个`[]`里面为图片标识id，第三个`[]`里面为图片标识id，其后面为图片本地或网络地址，地址后面可选图片标题  
-  ```![网络图片1] (http://upload-images.jianshu.io/upload_images/1768589-173b2734f0487253.jpg "net_image1")```    
+  ```![网络图片1] (http://upload-images.jianshu.io/upload_images/1768589-173b2734f0487253.jpg "net_image1")``` 
+  
   效果如下：
   >![网络图片1](http://upload-images.jianshu.io/upload_images/1768589-173b2734f0487253.jpg "net_image1")
 
   ```![网络图片2][net_image]```  
-  ```[net_image]:https://imgt.388g.com/allimg/160711/5-160G10T615.jpg "net_image2"```        
+  ```[net_image]:https://imgt.388g.com/allimg/160711/5-160G10T615.jpg "net_image2"``` 
+  
   效果如下：
   >![网络图片2][net_image]
 
-  ```![本地图片1] (local_image.jpg "local_image1")```      
+  ```![本地图片1] (local_image.jpg "local_image1")```  
+  
   效果如下：
   >![本地图片1](https://upload-images.jianshu.io/upload_images/1768589-7539c318c5551814.jpg "local_image1")
 
   ```![本地图片2][local_image]```  
-  ```[local_image]:https://upload-images.jianshu.io/upload_images/1768589-d4c7faea86df4437.gif "local_image2"```    
+  ```[local_image]:https://upload-images.jianshu.io/upload_images/1768589-d4c7faea86df4437.gif "local_image2"```  
+  
   效果如下：
   ![本地图片2][local_image]
 
