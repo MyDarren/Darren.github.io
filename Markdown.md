@@ -154,10 +154,10 @@ __加粗__
   > > > 朝闻道，夕死可矣
 
 * 大部分Markdown语法都可以在块引用中使用  
-  `> * 列表`
-  `[百度](https://www.baidu.com)`
-  `![图片](http://upload-images.jianshu.io/upload_images/1768589-b07325f8a8178d14.jpg)`
-  `[简书][jianshu_id]`
+  `> * 列表`  
+  `[百度](https://www.baidu.com)`  
+  `![图片](http://upload-images.jianshu.io/upload_images/1768589-b07325f8a8178d14.jpg)`  
+  `[简书][jianshu_id]`  
   `[jianshu_id]:https://www.jianshu.com`
 
   效果如下：  
