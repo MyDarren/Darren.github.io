@@ -202,7 +202,7 @@ __加粗__
       foo = (1,2,3,4)  
       bar = (5,6,7,8)  
       for f,b in zip(foo,bar):  
-      ` ` ` ` ` ` ` `print f,b  
+      ` ` ` `print f,b  
       \~\~\~
 
       效果如下：  
@@ -214,7 +214,7 @@ __加粗__
       ```  
       
       >\`\`\`objective-c  
-      - (void)testFunction{  
+      \- (void)testFunction{  
       ` ` ` ` ` ` ` `for (UIView *view in self.view.subviews) {  
       ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `NSLog(@"%@",NSStringFromCGRect(view.frame));  
       ` ` ` ` ` ` ` `}  
