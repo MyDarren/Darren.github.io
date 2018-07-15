@@ -143,7 +143,7 @@ __加粗__
   
   > 己所不欲，勿施于人
 
-* 引用可以嵌套
+* 引用可以嵌套  
   `> 三军可夺帅也，匹夫不可夺志也`  
   `> > 见贤思齐焉，见不贤而内自省也`  
   `> > > 朝闻道，夕死可矣`
@@ -153,7 +153,7 @@ __加粗__
   > > 见贤思齐焉，见不贤而内自省也  
   > > > 朝闻道，夕死可矣
 
-* 大部分Markdown语法都可以在块引用中使用
+* 大部分Markdown语法都可以在块引用中使用  
   `> * 列表`
   `[百度](https://www.baidu.com)`
   `![图片](http://upload-images.jianshu.io/upload_images/1768589-b07325f8a8178d14.jpg)`
@@ -214,9 +214,11 @@ __加粗__
       ```  
       
       >\`\`\`objective-c  
-      for (UIView *view in self.view.subviews) {
-          NSLog(@"%@",NSStringFromCGRect(view.frame));
-      }  
+      - (void)testFunction{  
+      ` ` ` ` ` ` ` `for (UIView *view in self.view.subviews) {  
+      ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `NSLog(@"%@",NSStringFromCGRect(view.frame));  
+      ` ` ` ` ` ` ` `}  
+      }   
       \`\`\`  
       
       效果如下：  
