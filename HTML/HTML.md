@@ -249,6 +249,7 @@ HTML（英文Hyper Text Markup Language的缩写）中文译为“超文本标�
     包含具体的表单功能项，如单行文本输入框、密码输入框、复选框、提交按钮、重置按钮等  
     - input控件  
       `<input />`标签为单标签，type属性为其最基本的属性类型，其取值有多种，用于指定不同的控件类型，常用属性如下：  
+      
       <table border="1" cellspacing="0" cellpadding="5">
         <tr>
             <th>属性</th>
@@ -319,6 +320,7 @@ HTML（英文Hyper Text Markup Language的缩写）中文译为“超文本标�
         </tr>
       </table>
     
+      
       一组radio和checkbox类型的input控件，需要命名为相同的name属性值  
       image类型的input控件，可以通过src属性获取图片
 
