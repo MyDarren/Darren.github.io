@@ -234,10 +234,10 @@ HTML（英文Hyper Text Markup Language的缩写）中文译为“超文本标�
   > - `<thead></thead>`标签用于定义表格头部，一般包含网页的logo和导航等头部信息
   > - `<tbody></tbody>`标签用于定义表格的主体，一般包含网页中除头部和底部之外的其他内容
 
-  合并单元格：
-  跨行合并属性名：rowspan    
-  跨列合并属性：colspan
-  思想：
+  合并单元格：  
+  跨行合并属性名：rowspan      
+  跨列合并属性：colspan  
+  思想：  
   - 确定是跨行合并还是跨列合并
   - 按照先上后下、先左后右的顺序找到对应的单元格td标签
   - 为该td标签添加对应的rowspan和colspan属性，属性值为要合并的单元格个数
@@ -250,7 +250,6 @@ HTML（英文Hyper Text Markup Language的缩写）中文译为“超文本标�
     - input控件  
       `<input />`标签为单标签，type属性为其最基本的属性类型，其取值有多种，用于指定不同的控件类型，常用属性如下：  
       <table border="1" cellspacing="0" cellpadding="5">
-        <caption>input标签常用属性</caption>
         <thead>
             <tr>
                 <th>属性</th>
@@ -328,7 +327,8 @@ HTML（英文Hyper Text Markup Language的缩写）中文译为“超文本标�
       image类型的input控件，可以通过src属性获取图片
 
     - textarea控件  
-      如果需要输入大量的信息时，需要使用`<textarea></textarea>`文本域控件。通过textarea控件可以轻松地创建多行文本输入框，其基本语法格式如下：  
+      如果需要输入大量的信息时，需要使用`<textarea></textarea>`文本域控件。通过textarea控件可以轻松地创建多行文本输入框  
+      其基本语法格式如下：  
       ```html
       <textarea cols="每行字符数" rows="显示列数">
         文本内容 
@@ -363,7 +363,7 @@ HTML（英文Hyper Text Markup Language的缩写）中文译为“超文本标�
   + 表单域  
     用来容纳所有的表单控件和提示信息，可以通过它定义处理表单数据所用程序的url地址，以及数据提交到服务器的方法  
     - form标签  
-      `<form></form>`标签用于定义表单域，即创建一个表单，以实现用户信息的收集和传递，form表单中的所有数据都会被提交到服务器
+      `<form></form>`标签用于定义表单域，即创建一个表单，以实现用户信息的收集和传递，form表单中的所有数据都会被提交到服务器  
       基本语法如下：  
       ```html
       <form action="url地址" method="提交方式" name="表单名称">
