@@ -103,7 +103,7 @@ __加粗__
   
 * 引用链接，使用`![][],[]:***`，其中第一个`[]`里面为图片标题，第二个`[]`里面为图片标识id，第三个`[]`里面为图片标识id，其后面为图片本地或网络地址，地址后面可选图片标题  
   `![网络图片2][net_image]`  
-  `[net_image]:https://b-ssl.duitang.com/uploads/item/201410/23/20141023144140_nQxhX.thumb.700_0.jpeg "net_image2"` 
+  `[net_image]:http://dmimg.5054399.com/allimg/xyytuku/x120613/x009.jpg "net_image2"` 
   
   效果如下：  
   >![网络图片2][net_image]
@@ -318,6 +318,6 @@ cond(no)->op
 效果如下:  
 ![flow_image](flow_image.png "flow_image")
 
-[net_image]:https://b-ssl.duitang.com/uploads/item/201410/23/20141023144140_nQxhX.thumb.700_0.jpeg "net_image2"
+[net_image]:http://dmimg.5054399.com/allimg/xyytuku/x120613/x009.jpg "net_image2"
 [local_image]:https://upload-images.jianshu.io/upload_images/1768589-d4c7faea86df4437.gif "local_image2"
 [jianshu_id]:https://www.jianshu.com
