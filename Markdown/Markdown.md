@@ -316,9 +316,8 @@ cond(no)->op
 ```
 
 效果如下:  
-![flow_image](flow_image "flow_image")
+![flow_image](flow_image.png "flow_image")
 
 [net_image]:https://imgt.388g.com/allimg/160711/5-160G10T615.jpg "net_image2"
 [local_image]:https://upload-images.jianshu.io/upload_images/1768589-d4c7faea86df4437.gif "local_image2"
 [jianshu_id]:https://www.jianshu.com
-![flow_image]:[flow_image]
