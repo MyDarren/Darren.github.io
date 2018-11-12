@@ -305,14 +305,23 @@ __加粗__
   \[^quote]: 引用用html<q>标签替换文字“"引号字符。引用和Smartypants在语法上是不兼容的。如果两个都启用，则引用优先。注意，引用与blockquote不同，后者是标准的Markdown的一部分
   
 ## 流程图
+```
 ```flow
-st=>start: a
-op=>operation: a > 10
-cond=>condition: Yes or No?
-e=>end: print(a)
-st->op->cond
-cond(yes)->e
-cond(no)->op
+st=>start: 开始:>https://www.baidu.com
+e=>end: print("Done")
+op=>operation: a
+op1=>operation: a+1
+op2=>operation: a*2
+op3=>operation: print(a)
+
+cond1=>condition: a<10
+cond2=>condition: a>100
+
+st->op->cond1
+cond1(yes)->op1(left)->op
+cond1(no)->op2(bottom)->cond2
+cond2(yes)->e
+cond2(no,right)->op3(right)->op2()
 ```
 
 效果如下:  
