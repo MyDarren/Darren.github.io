@@ -304,8 +304,21 @@ __加粗__
 
   \[^quote]: 引用用html<q>标签替换文字“"引号字符。引用和Smartypants在语法上是不兼容的。如果两个都启用，则引用优先。注意，引用与blockquote不同，后者是标准的Markdown的一部分
   
- 
+## 流程图
+```flow
+st=>start: a
+op=>operation: a > 10
+cond=>condition: Yes or No?
+e=>end: print(a)
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+效果如下:  
+![flow_image](flow_image "flow_image")
 
 [net_image]:https://imgt.388g.com/allimg/160711/5-160G10T615.jpg "net_image2"
 [local_image]:https://upload-images.jianshu.io/upload_images/1768589-d4c7faea86df4437.gif "local_image2"
 [jianshu_id]:https://www.jianshu.com
+![flow_image]:[flow_image]
