@@ -91,10 +91,10 @@ __加粗__
 
 ## 图片
 * 行内链接，使用`![]()`里面为图片本地或网络地址，地址后面可选图片标题  
-  `![网络图片1] (http://upload-images.jianshu.io/upload_images/1768589-173b2734f0487253.jpg "net_image1")` 
+  `![网络图片1] (http://img.mp.itc.cn/upload/20170114/47276ecdaaed41fe8636f9dcff9a6f91_th.jpg "net_image1")` 
   
   效果如下：  
-  >![网络图片1](http://upload-images.jianshu.io/upload_images/1768589-173b2734f0487253.jpg "net_image1")
+  >![网络图片1](http://img.mp.itc.cn/upload/20170114/47276ecdaaed41fe8636f9dcff9a6f91_th.jpg "net_image1")
   
   `![本地图片1] (local_image.jpg "local_image1")`  
   
@@ -103,7 +103,7 @@ __加粗__
   
 * 引用链接，使用`![][],[]:***`，其中第一个`[]`里面为图片标题，第二个`[]`里面为图片标识id，第三个`[]`里面为图片标识id，其后面为图片本地或网络地址，地址后面可选图片标题  
   `![网络图片2][net_image]`  
-  `[net_image]:https://imgt.388g.com/allimg/160711/5-160G10T615.jpg "net_image2"` 
+  `[net_image]:https://b-ssl.duitang.com/uploads/item/201410/23/20141023144140_nQxhX.thumb.700_0.jpeg "net_image2"` 
   
   效果如下：  
   >![网络图片2][net_image]
@@ -318,6 +318,6 @@ cond(no)->op
 效果如下:  
 ![flow_image](flow_image.png "flow_image")
 
-[net_image]:https://imgt.388g.com/allimg/160711/5-160G10T615.jpg "net_image2"
+[net_image]:https://b-ssl.duitang.com/uploads/item/201410/23/20141023144140_nQxhX.thumb.700_0.jpeg "net_image2"
 [local_image]:https://upload-images.jianshu.io/upload_images/1768589-d4c7faea86df4437.gif "local_image2"
 [jianshu_id]:https://www.jianshu.com
